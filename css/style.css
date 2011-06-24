@@ -78,11 +78,77 @@ a:hover { color: #036; }
 /**
  * Primary styles
  *
- * Author: 
+ * Author: Olivier Lacan
  */
 
+body {
+  background-color: #3b393a;
+  color: #f0f1f1;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
+#container {
+  clear: both;
+  width: 960px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -360px;
+  margin-top: -150px;
+}
 
+header {
+  width: 70%;
+  overflow: hidden;
+}
+
+header hgroup {
+  float: left;
+  width: 70%;
+}
+
+header h1 {
+  font-size: 6.5em;
+  font-weight: normal;
+  margin-bottom: -.2em;
+}
+
+header h1 strong {
+  color: #ff2c00;
+}
+
+header h2 {
+  font-size: 1.6em;
+  text-align: right;
+  color: #848688;
+  font-weight: normal;
+}
+
+header nav {
+  margin-left: 5%;
+  float: right;
+  width: 25%;
+  font-size: 1.6em;
+  line-height: 1.4;
+  text-transform: lowercase;
+}
+
+header nav a:link, header nav a:visited {
+  color: #606162;
+  text-decoration: none;
+  font-weight: normal;
+  font-weight: 500;
+}
+
+header nav a:hover, header nav a:focus {
+  color: #ff2c00;
+  -moz-transition: all 0.3s ease-out;  /* FF4+ */
+  -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.3s ease-out;  /* IE10? */
+  transition: all 0.3s ease-out;
+}
 
 
 
