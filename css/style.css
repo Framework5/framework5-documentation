@@ -84,38 +84,38 @@ a:hover { color: #036; }
 body {
   background-color: #3b393a;
   color: #f0f1f1;
+  text-shadow: 0 1px 1px rgba(0,0,0,.7);
   font-family: Helvetica, Arial, sans-serif;
 }
 
 #container {
   clear: both;
   width: 960px;
-  height: 300px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -360px;
-  margin-top: -150px;
+  margin: 10% auto;
 }
 
 header {
-  width: 70%;
+  width: 100%;
   overflow: hidden;
 }
 
 header hgroup {
   float: left;
   width: 70%;
+  text-align: right;
 }
 
 header h1 {
-  font-size: 6.5em;
+  font-size: 8em;
   font-weight: normal;
-  margin-bottom: -.2em;
+  margin-bottom: -.1em;
+  text-shadow: 0 5px 1px rgba(0,0,0,.4);
+  letter-spacing: 2px;
 }
 
 header h1 strong {
   color: #ff2c00;
+  padding-left: .1em;
 }
 
 header h2 {
@@ -127,6 +127,7 @@ header h2 {
 
 header nav {
   margin-left: 5%;
+  margin-top: 1em;
   float: right;
   width: 25%;
   font-size: 1.6em;
