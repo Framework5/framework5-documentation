@@ -89,10 +89,10 @@ body {
   background-color: #000;
   
   /*background-image: url(images/fallback-gradient.png); */
-  background-image: -moz-linear-gradient(#000, #444);
+  background-image: -moz-linear-gradient(#444, #000);
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#444), to(#000));
   background-image: -webkit-linear-gradient(#444, #000); 
-  background-image: -o-linear-gradient(#000, #444);
+  background-image: -o-linear-gradient(#444, #000);
   
   height: 80%;
   margin: 0;
