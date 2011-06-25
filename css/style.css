@@ -121,6 +121,7 @@ header hgroup {
 }
 
 header h1 {
+  color: #DDD;
   font-size: 8em;
   font-weight: normal;
   margin-bottom: -.1em;
